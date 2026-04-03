@@ -1,0 +1,19 @@
+title: Blogfolio
+description: Ideas, notes, and portfolio stories.
+url: ""
+baseurl: ""
+
+theme: minima
+plugins:
+  - jekyll-seo-tag
+
+header_pages:
+  - engineering_course.md
+  - international_mobility.md
+  - sustainability_civic_engagement.md
+  - career_development.md
+  - sport_other_activities.md
+  - about.md
+  - blog.md
+
+show_excerpts: true
