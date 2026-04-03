@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Sustainability and Civic Engagement
-permalink: /sustainability_civic_engagement/
+title: Civic Engagement
+permalink: /civic_engagement/
 ---
 
-## Sustainability and Civic Engagement
+## Civic Engagement
 
 I believe that technology and knowledge hold the most value when shared and used to benefit society. My civic engagement focuses on cybersecurity awareness, community education, and fostering inclusive participation in tech.
 

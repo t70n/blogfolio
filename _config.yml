@@ -1,4 +1,4 @@
-title: Blogfolio
+title: Blogfolio - Pierre Chaveroux [ t70n ]
 description: Ideas, notes, and portfolio stories.
 url: ""
 baseurl: ""
@@ -13,7 +13,6 @@ header_pages:
   - sustainability_civic_engagement.md
   - career_development.md
   - sport_other_activities.md
-  - about.md
   - blog.md
 
 show_excerpts: true

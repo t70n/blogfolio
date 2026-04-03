@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Engineering Course
-permalink: /engineering_course/
+title: Engineering Projects
+permalink: /engineering_projects/
 ---
 
-## Engineering & Projects
+On this page, you will find several projects that I found interesting to share. These projects are either personal projects or school projects, and they were completed either in a team or on my own. Do not hesitate to check my GitHub to find more technical information on how things work and where you may find a full technical report explaining the problem and the proposed solution. If you have other questions, feel free to reach out to me directly.
 
-Throughout my studies at ENSEEIHT and beyond, I've worked on diverse engineering projects spanning from embedded systems and IoT to game development and network infrastructure. These projects combine practical problem-solving with innovative technology.
+Also, all projects are for educational and fun purposes only. Please do not use them in a harmful way. 
 
 <div class="posts-section">
-  <h2>Featured Projects</h2>
+  <h2>Network Projects</h2>
   <div class="posts-grid">
     {% for post in site.posts %}
       {% if post.categories contains "engineering" %}

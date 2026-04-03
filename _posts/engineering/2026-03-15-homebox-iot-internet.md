@@ -8,7 +8,7 @@ featured_image: /assets/legacy/img/homebox2.jpg
 excerpt: "Custom 5G router with full IoT capabilities, serving as the backbone of a complete home automation setup."
 ---
 
-Frustrated by the rigid offerings of French ISPs, I built my own internet box around a Teltonika RUTX50—an industrial 5G router with full customization. Dubbed the HomeBox, it serves as the backbone of my home automation setup.
+Frustrated by the rigid offerings of French ISPs, I built my own internet box around a Teltonika RUTX50, an industrial 5G router with full customization. Dubbed the HomeBox, it serves as the backbone of my home automation setup.
 
 ## The Challenge
 

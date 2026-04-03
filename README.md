@@ -48,13 +48,11 @@ Current high-level structure:
 │   ├── career/
 │   └── civic-engagement/
 ├── assets/
-│   ├── css/style.scss
+│   ├── main.scss
 │   └── legacy/
 │       ├── img/
 │       ├── vid/
 │       └── pdf/
-├── scripts/
-│   └── fetch_legacy_media.sh
 ├── index.md
 ├── blog.md
 ├── international_mobility.md
@@ -147,12 +145,6 @@ Preview drafts from `_drafts/`:
 
 ```bash
 bundle exec jekyll serve --drafts --livereload
-```
-
-### 6. Re-fetch legacy media (if needed)
-
-```bash
-bash scripts/fetch_legacy_media.sh
 ```
 
 ## Typical Daily Workflow

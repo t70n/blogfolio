@@ -1,12 +1,12 @@
 ---
 layout: page
-title: International Mobility
-permalink: /international_mobility/
+title: Erasmus Norway
+permalink: /erasmus_norway/
 ---
 
-## International Mobility
+## Erasmus Norway
 
-My journey in international mobility encompasses semester exchange programs across Europe and continuous language development. Explore my experiences working with leading universities and developing global perspectives.
+My journey in Erasmus mobility includes semester exchange programs and continuous language development. Explore my experiences and growth while preparing for my adventure in Norway.
 
 <div class="posts-section">
   <h2>Semester Exchange Programs</h2>
