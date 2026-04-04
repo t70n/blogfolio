@@ -4,7 +4,7 @@ title: "English Language Proficiency - B2/C1 Level"
 date: 2026-04-03
 categories: mobility education
 tags: [language, english, proficiency, communication]
-featured_image: /assets/legacy/img/marc_laffon_profile.jpeg
+# featured_image: /assets/legacy/img/marc_laffon_profile.jpeg
 excerpt: "English proficiency at B2/C1 level developed through international exchanges and professional communication."
 ---
 

@@ -2,9 +2,11 @@
 layout: post
 title: "HomeBox: Building My Own IoT-Enabled Internet Box"
 date: 2026-03-15
-categories: projects engineering
+categories: [engineering, network]
 tags: [network, IoT, home-automation, 5G, embedded-systems]
 featured_image: /assets/legacy/img/homebox2.jpg
+card_images:
+  - /assets/legacy/img/homebox2.jpg
 excerpt: "Custom 5G router with full IoT capabilities, serving as the backbone of a complete home automation setup."
 ---
 

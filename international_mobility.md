@@ -4,8 +4,6 @@ title: Erasmus Norway
 permalink: /erasmus_norway/
 ---
 
-## Erasmus Norway
-
 My journey in Erasmus mobility includes semester exchange programs and continuous language development. Explore my experiences and growth while preparing for my adventure in Norway.
 
 <div class="posts-section">

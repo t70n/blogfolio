@@ -1,0 +1,73 @@
+{% assign carousel_id = include.id | default: 'carousel' %}
+{% assign images = include.images | split: '|' %}
+{% assign captions = include.captions | split: '|' %}
+
+{% if images and images.size > 0 %}
+<div class="post-carousel" id="{{ carousel_id }}" data-carousel>
+  <button class="post-carousel-control prev" type="button" aria-label="Previous slide">&#10094;</button>
+
+  <div class="post-carousel-track" data-carousel-track>
+    {% for image in images %}
+      {% assign slide_index = forloop.index0 %}
+      {% assign caption = captions[slide_index] %}
+      <figure class="post-carousel-slide{% if forloop.first %} is-active{% endif %}" data-slide>
+        <img src="{{ image | strip | relative_url }}" alt="{{ include.alt | default: 'Carousel image' }} {{ forloop.index }}" />
+        {% if caption and caption != '' %}
+          <figcaption>{{ caption | strip }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+
+  <button class="post-carousel-control next" type="button" aria-label="Next slide">&#10095;</button>
+
+  <div class="post-carousel-dots" aria-label="Carousel navigation">
+    {% for image in images %}
+      <button type="button" class="post-carousel-dot{% if forloop.first %} is-active{% endif %}" data-dot="{{ forloop.index0 }}" aria-label="Go to slide {{ forloop.index }}"></button>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById("{{ carousel_id }}");
+  if (!root) return;
+
+  var slides = Array.prototype.slice.call(root.querySelectorAll('[data-slide]'));
+  var dots = Array.prototype.slice.call(root.querySelectorAll('[data-dot]'));
+  var prev = root.querySelector('.post-carousel-control.prev');
+  var next = root.querySelector('.post-carousel-control.next');
+  var index = 0;
+
+  function render(newIndex) {
+    index = (newIndex + slides.length) % slides.length;
+
+    slides.forEach(function (slide, i) {
+      slide.classList.toggle('is-active', i === index);
+    });
+
+    dots.forEach(function (dot, i) {
+      dot.classList.toggle('is-active', i === index);
+    });
+  }
+
+  if (prev) {
+    prev.addEventListener('click', function () {
+      render(index - 1);
+    });
+  }
+
+  if (next) {
+    next.addEventListener('click', function () {
+      render(index + 1);
+    });
+  }
+
+  dots.forEach(function (dot, i) {
+    dot.addEventListener('click', function () {
+      render(i);
+    });
+  });
+})();
+</script>
+{% endif %}

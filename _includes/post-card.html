@@ -1,19 +1,47 @@
-<div class="post-card">
-  {% if include.post.featured_image %}
-    <div class="post-card-image">
-      <a href="{{ include.post.url | relative_url }}">
-        <img src="{{ include.post.featured_image | relative_url }}" alt="{{ include.post.title }}" />
-      </a>
-    </div>
+<article class="post-card" aria-label="Post preview card">
+  {% assign card_images = include.post.card_images %}
+  {% if card_images and card_images.size > 0 %}
+    <a class="post-card-image-stack" href="{{ include.post.url | relative_url }}" aria-label="Open {{ include.post.title }}">
+      {% for image in card_images limit:2 %}
+        <img src="{{ image | relative_url }}" alt="{{ include.post.title }} preview {{ forloop.index }}" />
+      {% endfor %}
+    </a>
+  {% elsif include.post.featured_image %}
+    <a class="post-card-image" href="{{ include.post.url | relative_url }}" aria-label="Open {{ include.post.title }}">
+      <img src="{{ include.post.featured_image | relative_url }}" alt="{{ include.post.title }}" />
+    </a>
   {% endif %}
+
   <div class="post-card-content">
+    <p class="post-card-kicker">Post Preview</p>
+
     <h3 class="post-card-title">
       <a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a>
     </h3>
-    <p class="post-card-date">{{ include.post.date | date: "%B %d, %Y" }}</p>
-    {% if include.post.excerpt %}
-      <p class="post-card-excerpt">{{ include.post.excerpt }}</p>
+
+    {% assign cleaned_excerpt = include.post.excerpt | strip_html | strip_newlines %}
+    {% assign fallback_text = include.post.content | strip_html | strip_newlines %}
+    {% assign preview_text = cleaned_excerpt %}
+    {% if preview_text == "" %}
+      {% assign preview_text = fallback_text %}
     {% endif %}
-    <a href="{{ include.post.url | relative_url }}" class="read-more">Read More →</a>
+
+    {% if preview_text != "" %}
+      <p class="post-card-excerpt">{{ preview_text | truncatewords: 40 }}</p>
+    {% endif %}
+
+    <div class="post-card-meta" aria-label="Post metadata and actions">
+      <p class="post-card-date">{{ include.post.date | date: "%B %d, %Y" }}</p>
+
+      {% if include.post.categories and include.post.categories.size > 0 %}
+        <ul class="post-card-tags" aria-label="Post categories">
+          {% for category in include.post.categories limit:2 %}
+            <li>{{ category | replace: "-", " " }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <a href="{{ include.post.url | relative_url }}" class="read-more">Read full post</a>
+    </div>
   </div>
-</div>
+</article>

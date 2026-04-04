@@ -5,6 +5,9 @@ date: 2026-03-20
 categories: civic-engagement sustainability
 tags: [cybersecurity, WOCSA, IoT, workshops, community]
 featured_image: /assets/legacy/img/wocsa_1.jpeg
+card_images:
+  - /assets/legacy/img/wocsa_rempar25.jpeg
+  - /assets/legacy/img/wocsa_paris_2025.jpeg
 excerpt: "Contributing to global cybersecurity awareness through community workshops and collaborative security education initiatives."
 ---
 
@@ -26,35 +29,12 @@ Since joining WOCSA, I have had the privilege of leading workshops and engaging 
 
 ## 2024-2025 Activities
 
-### September 2025 – Labege: REMPAR25
-
-![REMPAR25 Event](/assets/legacy/img/wocsa_rempar25.jpeg)
-
-Animator for ANSSI REMPAR25, bringing cybersecurity awareness to the Occitanie region.
-
-### October 2025 – Paris: IoT Workshop
-
-![Paris Workshop 2025](/assets/legacy/img/wocsa_paris_2025.jpeg)
-
-Advanced IoT security workshop covering connected devices, protocols, and threat landscapes.
-
-### October 2024 – Paris: IoT Workshop
-
-![Paris Workshop 2024](/assets/legacy/img/wocsa_paris_2024.jpg)
-
-Foundational IoT security workshop for professionals and students.
-
-### November 2024 – Toulouse: Capitole du Libre
-
-![Capitole du Libre 2024](/assets/legacy/img/wocsa_capitole_du_libre_2024.jpeg)
-
-Presented at Toulouse's largest free and open-source software conference.
-
-### December 2024 – Toulouse: Santa Workshop
-
-![Toulouse Workshop](/assets/legacy/img/wocsa_toulouse_workshop.jpeg)
-
-Community cybersecurity workshop focusing on practical security defense techniques.
+{% include image-carousel.html
+  id="wocsa-workshops-carousel"
+  alt="WOCSA workshop"
+  images="/assets/legacy/img/wocsa_rempar25.jpeg|/assets/legacy/img/wocsa_paris_2025.jpeg|/assets/legacy/img/wocsa_paris_2024.jpg|/assets/legacy/img/wocsa_capitole_du_libre_2024.jpeg|/assets/legacy/img/wocsa_toulouse_workshop.jpeg"
+  captions="September 2025 - Labege REMPAR25: Animator for ANSSI REMPAR25, raising cybersecurity awareness in the Occitanie region.|October 2025 - Paris IoT Workshop: Advanced IoT security session covering connected devices, protocols, and modern threat landscapes.|October 2024 - Paris IoT Workshop: Foundational cybersecurity workshop for students and professionals entering IoT security.|November 2024 - Toulouse Capitole du Libre: Presented practical cybersecurity topics at Toulouse's major free and open-source conference.|December 2024 - Toulouse Santa Workshop: Community workshop focused on practical defensive cybersecurity techniques."
+%}
 
 ## Looking Forward
 
