@@ -4,7 +4,7 @@ title: "Corto-Densimeter"
 date: 2026-04-04
 categories: [engineering, electronic]
 tags: [engineering, electronic, esp32, zigbee, brewing]
-featured_image: /assets/legacy/img/corto_densimeter.jpg
+featured_image: /assets/legacy/img/engineering/electronic/corto_densimeter.jpg
 excerpt: "Corto Densimeter: a DIY alcohol meter for craft beer."
 ---
 
@@ -21,7 +21,7 @@ How it works:
 
 This project aims to give Corto a reliable wireless tool to track alcohol levels during brewing.
 
-![Corto Densimeter prototype](/assets/legacy/img/corto_densimeter.jpg)
+![Corto Densimeter prototype](/assets/legacy/img/engineering/electronic/corto_densimeter.jpg)
 
 Links:
 

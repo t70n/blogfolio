@@ -1,5 +1,12 @@
-<article class="post-card" aria-label="Post preview card">
-  {% assign card_images = include.post.card_images %}
+{% assign card_images = include.post.card_images %}
+{% assign has_card_images = false %}
+{% if card_images and card_images.size > 0 %}
+  {% assign has_card_images = true %}
+{% elsif include.post.featured_image %}
+  {% assign has_card_images = true %}
+{% endif %}
+
+<article class="post-card{% unless has_card_images %} post-card--text-only{% endunless %}" aria-label="Post preview card">
   {% if card_images and card_images.size > 0 %}
     <a class="post-card-image-stack" href="{{ include.post.url | relative_url }}" aria-label="Open {{ include.post.title }}">
       {% for image in card_images limit:2 %}

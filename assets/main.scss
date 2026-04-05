@@ -44,6 +44,11 @@
   border-color: var(--card-border-strong);
 }
 
+.post-card--text-only {
+  grid-template-columns: 1fr;
+  border-left: 4px solid var(--card-accent);
+}
+
 .post-card-image {
   display: block;
   border-radius: 12px;
@@ -89,6 +94,10 @@
   text-justify: auto;
 }
 
+.post-card--text-only .post-card-content {
+  padding-left: 0.1rem;
+}
+
 .post-card-kicker {
   margin: 0 0 0.35rem;
   font-size: 0.72rem;
@@ -132,6 +141,10 @@
   flex-wrap: wrap;
   gap: 0.55rem;
   align-items: center;
+}
+
+.post-card--text-only .post-card-meta {
+  justify-content: flex-start;
 }
 
 .post-card-date {
@@ -245,6 +258,165 @@
   left: 0.6rem;
 }
 
+.site-header--elevated {
+  border-top: 0;
+  border-bottom: 1px solid #dbe5f0;
+  background: #fff;
+  padding: 0.45rem 0 0.35rem;
+}
+
+.site-header--elevated .site-header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem 1rem;
+  padding: 0.25rem 0;
+}
+
+.site-header--elevated .brand-mark {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  color: #0f2a46;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+}
+
+.site-header--elevated .site-nav {
+  border: 0;
+  background: transparent;
+  line-height: normal;
+  width: 100%;
+}
+
+.site-header--elevated .nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.2rem 1rem;
+}
+
+.site-header--elevated .site-nav .page-link {
+  margin: 0;
+  padding: 0.15rem 0;
+  border: 0;
+  background: transparent;
+  color: #1f446b;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.35;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+
+.site-header--elevated .site-nav .page-link:hover,
+.site-header--elevated .site-nav .page-link:focus {
+  color: #0b4d7a;
+  text-decoration: underline;
+}
+
+.site-header--elevated .site-nav .page-link.is-active {
+  color: #0b4d7a;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.site-header--elevated .nav-toggle-text {
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  .site-header--elevated {
+    padding-top: 0.35rem;
+  }
+
+  .site-header--elevated .site-header-inner {
+    gap: 0.35rem;
+    padding: 0.25rem 0;
+    justify-content: space-between;
+  }
+
+  .site-header--elevated .site-title {
+    width: calc(100% - 34px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.95rem;
+    text-align: left;
+  }
+
+  .site-header--elevated .site-nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: auto;
+    margin-left: auto;
+  }
+
+  .site-header--elevated .site-nav label[for="nav-trigger"] {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    padding: 0;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .site-header--elevated .site-nav .menu-icon {
+    float: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 15px;
+    line-height: 1;
+    padding: 0;
+  }
+
+  .site-header--elevated .site-nav .menu-icon > svg {
+    display: block;
+    fill: #1f446b;
+  }
+
+  .site-header--elevated .site-nav .trigger {
+    clear: both;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 0.45rem);
+    z-index: 6;
+    min-width: 230px;
+    max-width: min(86vw, 320px);
+    padding: 0.55rem;
+    border: 1px solid #dbe5f0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 14px 28px -24px rgba(8, 24, 44, 0.8);
+  }
+
+  .site-header--elevated .site-nav .page-link {
+    display: block;
+    margin: 0;
+    padding: 0.35rem 0.15rem;
+    text-align: left;
+  }
+
+  .site-header--elevated .site-nav input ~ .trigger {
+    display: none;
+  }
+
+  .site-header--elevated .site-nav input:checked ~ .trigger {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.42rem;
+  }
+}
+
 .post-carousel-control.next {
   right: 0.6rem;
 }
@@ -270,6 +442,14 @@
 
 .post-carousel-dot.is-active {
   background: #fff;
+}
+
+.post-hero-full {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
 }
 
 @media (max-width: 860px) {

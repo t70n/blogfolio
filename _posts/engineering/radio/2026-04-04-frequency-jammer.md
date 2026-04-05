@@ -4,7 +4,7 @@ title: "Frequency Jammer"
 date: 2026-04-04
 categories: [engineering, radio, frequency]
 tags: [engineering, radio, gnu-radio, adalm-pluto]
-featured_image: /assets/legacy/img/ensseih_front_porch.jpg
+featured_image: /assets/legacy/img/engineering/radio/ensseih_front_porch.jpg
 excerpt: "This IUT project explored frequency-modulated transmissions and jamming."
 ---
 

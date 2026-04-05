@@ -4,9 +4,9 @@ title: Engineering Projects
 permalink: /engineering_projects/
 ---
 
-On this page, you will find several projects that I found interesting to share. These projects are either personal projects or school projects, and they were completed either in a team or on my own. Do not hesitate to check my GitHub to find more technical information on how things work and where you may find a full technical report explaining the problem and the proposed solution. If you have other questions, feel free to reach out to me directly.
+On this page, you will find several projects that I found interesting to share. These projects are either personal or school projects, completed either in a team or on my own. Feel free to check my GitHub for more technical information on how things work and, when available, full technical reports explaining the problem and the proposed solution. If you have any questions, feel free to reach out to me directly.
 
-Also, all projects are for educational and fun purposes only. Please do not use them in a harmful way. 
+All projects are for educational and learning purposes only. Please do not use them in a harmful way.
 
 <div class="posts-section">
   <h2>Network Projects</h2>

@@ -4,10 +4,10 @@ title: "Bomber7"
 date: 2026-02-28
 categories: [engineering, programming]
 tags: [engineering, programming, game]
-featured_image: /assets/legacy/img/bomber7_bonus.png
+featured_image: /assets/legacy/img/engineering/programming/bomber7_bonus.png
 card_images:
-  - /assets/legacy/img/bomber7_bonus.png
-  - /assets/legacy/img/bomber7_home.png
+  - /assets/legacy/img/engineering/programming/bomber7_bonus.png
+  - /assets/legacy/img/engineering/programming/bomber7_home.png
 excerpt: "Bomber7 is a local multiplayer game inspired by the classic Bomberman, with a twist: maps and themes are based on ENSEEIHT."
 ---
 
@@ -36,11 +36,11 @@ UI and UX:
 - Custom menus for player selection, map choice, and settings
 - Sound effects and music
 
-![Bomber7 screenshots](/assets/legacy/img/bomber7_bonus.png)
+![Bomber7 screenshots](/assets/legacy/img/engineering/programming/bomber7_bonus.png)
 
-![Gameplay preview](/assets/legacy/img/bomber7_home.png)
+![Gameplay preview](/assets/legacy/img/engineering/programming/bomber7_home.png)
 
-![In-game action](/assets/legacy/img/bomber7_play.png)
+![In-game action](/assets/legacy/img/engineering/programming/bomber7_play.png)
 
 Links:
 

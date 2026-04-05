@@ -3,7 +3,7 @@
 Personal blogfolio built with Jekyll and the Minima theme.
 
 This website combines:
-- A personal portfolio structure (mobility, engineering, career, civic engagement, activities)
+- A personal portfolio structure (mobility, engineering, career, civic engagement)
 - A blog experience (dated posts, categories, excerpts, featured images)
 - Locally hosted media (images, videos, PDFs)
 
@@ -59,7 +59,6 @@ Current high-level structure:
 ├── engineering_course.md
 ├── career_development.md
 ├── sustainability_civic_engagement.md
-└── sport_other_activities.md
 ```
 
 ## Content Model
@@ -71,7 +70,6 @@ Thematic pages are used as entry points:
 - Engineering Course
 - Career Development
 - Sustainability and Civic Engagement
-- Sports and Other Activities
 
 Most landing pages now display post cards with:
 - Featured image

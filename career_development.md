@@ -36,7 +36,7 @@ My professional journey is shaped by hands-on internships, apprenticeships, and 
 
 Marc has been instrumental in my professional development since joining Alsatis. His expertise in IoT and forward-thinking vision continues to shape my career trajectory.
 
-![Marc LAFFON](/assets/legacy/img/marc_laffon_profile.jpeg)
+![Marc LAFFON](/assets/legacy/img/career/marc_laffon_profile.jpeg)
 
 ### Fabienne SERENE
 
@@ -44,7 +44,7 @@ Deputy Director of Earth Observation Projects - National Centre for Space Studie
 
 Fabienne has supported me since early student days and helped me stay on the right track. She showed me that with passion and determination, goals are within reach.
 
-![Fabienne SERENE](/assets/legacy/img/fabienne_serene_profile.jpeg)
+![Fabienne SERENE](/assets/legacy/img/career/fabienne_serene_profile.jpeg)
 
 ### Alexandre CABROL-PERALES
 
@@ -52,13 +52,13 @@ Head of Managed Detection and Response - SOPRA STERIA INFRASTRUCTURE and SECURIT
 
 Alexandre, president of WOCSA, is an inspiring figure of innovation. Through workshops developed with him, I gained technical knowledge and a strong appreciation for creativity.
 
-![Alexandre CABROL-PERALES](/assets/legacy/img/alexandre_cabrol_perales_profile.png)
+![Alexandre CABROL-PERALES](/assets/legacy/img/career/alexandre_cabrol_perales_profile.png)
 
 ## Apprenticeship
 
 Gain insights into my hands-on industry experience and skills developed during apprenticeship.
 
-![Alsatis Reseaux Logo](/assets/legacy/img/alsatis_reseaux_logo.png)
+![Alsatis Reseaux Logo](/assets/legacy/img/career/alsatis_reseaux_logo.png)
 
 Within the IoT team at Alsatis, I oversee administration of equipment within the LoRaWAN core network environment and develop API scripts to optimize internal processes.
 
@@ -68,7 +68,7 @@ Alsatis has provided me with strong technical and human learning opportunities i
 
 The Internet of Things continues to expand through use cases that benefit society, and I am motivated by combining technology with sustainable ecosystem development.
 
-![Alsatis Work](/assets/legacy/img/alsatis_work_illustration.png)
+![Alsatis Work](/assets/legacy/img/career/alsatis_work_illustration.png)
 
 ## PEP
 

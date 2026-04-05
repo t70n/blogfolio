@@ -4,7 +4,7 @@ title: "Radio Listener"
 date: 2026-04-04
 categories: [engineering, radio]
 tags: [engineering, radio, fm, hackrf]
-featured_image: /assets/legacy/img/ensseih_front_porch.jpg
+featured_image: /assets/legacy/img/engineering/radio/ensseih_front_porch.jpg
 excerpt: "This project aimed to understand FM modulation and demodulation by using HackRF One SDR to capture, process, and play live radio broadcasts."
 ---
 
